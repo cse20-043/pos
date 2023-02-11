@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POS</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="text-wrapper">
+            <h1 class="title">Point of Sale</h1>
+            <h2 class="title">Point of Sale</h2>
+            <p>
+                A point of sale (POS) is a place where a customer executes the payment for goods or services and where sales taxes may become payable
+                <br>
+                <h2 style="color: red;">Be a member and sign-up.</h2>
+            </p>
+        </div>
+        <div class="form-section">
+            <form class="form" id="form">
+                <div class="form-control">
+                    <input type="text" placeholder="First Name" id="first-name" aria-label="input first name">
+                    <img class="error-icon" src="./images/icon-error.svg" alt="error-icon">
+                    <small class="error-message">Error</small>
+                </div>
+                <div class="form-control">
+                    <input type="text" placeholder="Last Name" id="last-name" aria-label="input last name">
+                    <img class="error-icon" src="./images/icon-error.svg" alt="error-icon">
+                    <small class="error-message">Error</small>
+                </div>
+                <div class="form-control">
+                    <input type="email" placeholder="Email Address" id="email" aria-label="input email">
+                    <img class="error-icon" src="./images/icon-error.svg" alt="error-icon">
+                    <small class="error-message">Error</small>
+                </div>
+                <div class="form-control">
+                    <input type="password" placeholder="Password" id="password" aria-label="input password">
+                    <img class="error-icon" src="./images/icon-error.svg" alt="error-icon">
+                    <small class="error-message">Error</small>
+                </div>
+                <button class="btn btn-primary">Sign-Up</button>
+                <small class="t-and-c">By clicking the button, you are agreeing to our <a href="#" target="_blank">Terms and Services</a></small>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p class="attribution">
+           <a>Coded by Boipelo Libinda</a>.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
